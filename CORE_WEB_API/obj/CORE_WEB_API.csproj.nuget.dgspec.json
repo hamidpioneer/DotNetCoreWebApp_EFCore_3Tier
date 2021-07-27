@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\CORE_WEB_API\\CORE_WEB_API.csproj": {}
+  },
+  "projects": {
+    "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\CORE_WEB_API\\CORE_WEB_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\CORE_WEB_API\\CORE_WEB_API.csproj",
+        "projectName": "CORE_WEB_API",
+        "projectPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\CORE_WEB_API\\CORE_WEB_API.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\CORE_WEB_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\BLL\\BLL.csproj"
+              },
+              "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "D:\\Study Materials\\PRACTICES\\DotNetCoreWebApp\\Hamid DotNetCore WEB API\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

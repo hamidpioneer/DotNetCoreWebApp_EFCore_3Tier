@@ -1,0 +1,138 @@
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.csproj.AssemblyReference.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.AssemblyInfoInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.AssemblyInfo.cs
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.csproj.CoreCompileInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.MvcApplicationPartsAssemblyInfo.cs
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.MvcApplicationPartsAssemblyInfo.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\appsettings.Development.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\appsettings.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.exe
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.deps.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.runtimeconfig.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.runtimeconfig.dev.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\ref\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\AutoMapper.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Humanizer.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\DAL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\BLL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\bin\Debug\net5.0\DAL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\staticwebassets\CORE_WEB_API.StaticWebAssets.Manifest.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\staticwebassets\CORE_WEB_API.StaticWebAssets.xml
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\scopedcss\bundle\CORE_WEB_API.styles.css
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.RazorTargetAssemblyInfo.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.csproj.CopyComplete
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\ref\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.genruntimeconfig.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\appsettings.Development.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\appsettings.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.exe
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.deps.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.runtimeconfig.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.runtimeconfig.dev.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\ref\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\CORE_WEB_API.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\AutoMapper.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Humanizer.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\DAL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\BLL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\DAL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.csproj.AssemblyReference.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.AssemblyInfoInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.AssemblyInfo.cs
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.csproj.CoreCompileInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.MvcApplicationPartsAssemblyInfo.cs
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.MvcApplicationPartsAssemblyInfo.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\staticwebassets\CORE_WEB_API.StaticWebAssets.Manifest.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\staticwebassets\CORE_WEB_API.StaticWebAssets.xml
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\scopedcss\bundle\CORE_WEB_API.styles.css
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.RazorTargetAssemblyInfo.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.csproj.CopyComplete
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\ref\CORE_WEB_API.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.genruntimeconfig.cache

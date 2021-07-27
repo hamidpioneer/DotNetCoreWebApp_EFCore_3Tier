@@ -1,0 +1,30 @@
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\bin\Debug\net5.0\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\bin\Debug\net5.0\BLL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\bin\Debug\net5.0\DAL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\bin\Debug\net5.0\DAL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Test_3Tier_Architecture\BLL\obj\Debug\net5.0\BLL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\bin\Debug\net5.0\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\bin\Debug\net5.0\BLL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\bin\Debug\net5.0\DAL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\bin\Debug\net5.0\DAL.pdb
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\BLL\obj\Debug\net5.0\BLL.pdb

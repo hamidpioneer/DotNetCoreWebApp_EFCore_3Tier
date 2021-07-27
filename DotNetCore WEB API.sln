@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORE_WEB_API", "CORE_WEB_API\CORE_WEB_API.csproj", "{06257043-A604-4933-A622-1A639ABC76E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{518828EE-E388-4201-9F2A-9580D167F130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{EB052C82-F3AC-48FE-9090-C480AB5F0370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06257043-A604-4933-A622-1A639ABC76E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06257043-A604-4933-A622-1A639ABC76E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06257043-A604-4933-A622-1A639ABC76E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06257043-A604-4933-A622-1A639ABC76E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518828EE-E388-4201-9F2A-9580D167F130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518828EE-E388-4201-9F2A-9580D167F130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518828EE-E388-4201-9F2A-9580D167F130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518828EE-E388-4201-9F2A-9580D167F130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB052C82-F3AC-48FE-9090-C480AB5F0370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB052C82-F3AC-48FE-9090-C480AB5F0370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB052C82-F3AC-48FE-9090-C480AB5F0370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB052C82-F3AC-48FE-9090-C480AB5F0370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C29180-8A01-44BF-B4C4-907FBC9DDDD2}
+	EndGlobalSection
+EndGlobal
