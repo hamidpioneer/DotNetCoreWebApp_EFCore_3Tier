@@ -1,6 +1,7 @@
 using BLL.Services.Implementations;
 using BLL.Services.Interfaces;
 using DAL.DatabaseContext;
+using DAL.Models;
 using DAL.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,14 +28,20 @@ namespace CORE_WEB_API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region DbContext DI
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultSqlServer")));
+            #endregion
+
+            #region Repository DI
             services.AddScoped<ISampleRepo, SampleRepo>();
+            services.AddScoped<IGenericRepo<Sample>, GenericRepo<Sample>>();
+            #endregion
 
             #region BLL Services DI
             services.AddScoped<Sample_Service, Sample_Service>();
+            services.AddScoped<ICrudService, CrudService>();
             #endregion
 
             services.AddControllers();
@@ -46,7 +53,6 @@ namespace CORE_WEB_API
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

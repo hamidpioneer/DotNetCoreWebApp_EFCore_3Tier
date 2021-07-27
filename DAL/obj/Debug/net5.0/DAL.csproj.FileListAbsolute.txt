@@ -18,7 +18,6 @@ D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\bin\D
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\bin\Debug\net5.0\DAL.dll
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\bin\Debug\net5.0\ref\DAL.dll
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\bin\Debug\net5.0\DAL.pdb
-D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
@@ -27,3 +26,4 @@ D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\D
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\ref\DAL.dll
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.pdb
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
