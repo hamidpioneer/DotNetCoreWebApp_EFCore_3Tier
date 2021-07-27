@@ -21,6 +21,30 @@ namespace BLL.Services.Implementations
             _applicantGenericRepo = applicantGenericRepo;
             _mapper = mapper;
         }
+
+        public ResultSet<IList<ApplicantReadDto>> GetAllApplicants()
+        {
+            ResultSet<IList<ApplicantReadDto>> result = new();
+
+            try
+            {
+                IEnumerable<Applicant> dataFromDb = _applicantGenericRepo.GetAll();
+                IList<ApplicantReadDto> mappedData = _mapper.Map<IList<ApplicantReadDto>>(dataFromDb);
+
+                result.result_set = mappedData;
+                result.userMessage = "BLL - ApplicantService - GetAllApplicants() - Successful";
+                result.internalMessage = "LOG-Internal: BLL - ApplicantService - GetAllApplicants() - Successful";
+                result.success = true;
+            }
+            catch (Exception exception)
+            {
+                result.userMessage = "ERROR: BLL - ApplicantService - GetAllApplicants() - Failed";
+                result.internalMessage = "ERROR-Internal: BLL - ApplicantService - GetAllApplicants() - Failed";
+                result.exception = exception;
+            }
+            return result;
+        }
+
         public ResultSet<ApplicantReadDto> InsertData(ApplicantCreateDto applicantCreateDto)
         {
             ResultSet<ApplicantReadDto> result = new();

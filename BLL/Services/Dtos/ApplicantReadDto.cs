@@ -10,7 +10,8 @@ namespace BLL.Services.Dtos
     {
         public string Name { get; set; }
         public string SurName { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        //public DateTime DateOfBirth { get; set; }
+        public string DateOfBirthString { get; set; }
         public string ContactNumber { get; set; }
         public string ContactEmail { get; set; }
     }

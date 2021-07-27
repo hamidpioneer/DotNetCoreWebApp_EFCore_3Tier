@@ -11,5 +11,7 @@ namespace BLL.Services.Interfaces
     public interface IApplicantService
     {
         ResultSet<ApplicantReadDto> InsertData(ApplicantCreateDto applicantCreateDto);
+        ResultSet<IList<ApplicantReadDto>> GetAllApplicants();
+
     }
 }

@@ -20,7 +20,25 @@ namespace CORE_WEB_API.Controllers
             _actionService = actionService;
         }
 
-        [HttpPost]
+        [HttpGet("[Action]")]
+        public IActionResult GetAllApplicants()
+        {
+            try
+            {
+                var result = _actionService.GetAllApplicants();
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                return BadRequest("Try again later. Bad Request from  ApplicantController - GetAllApplicants()");
+            }
+            catch (Exception exception)
+            {
+                throw new Exception("ERROR: Controller - ApplicantController - GetAllApplicants() - Failed", exception);
+            }
+        }
+
+        [HttpPost("[Action]")]
         public IActionResult CreateApplicant(ApplicantCreateDto obj)
         {
             try
