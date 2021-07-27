@@ -20,6 +20,9 @@ namespace BLL.Services.AutoMappingProfiles
             CreateMap<Applicant, ApplicantCreateDto>();
             CreateMap<ApplicantCreateDto, Applicant>();
 
+            CreateMap<Applicant, ApplicantReadDto>();
+            CreateMap<ApplicantReadDto, Applicant>();
+
         }
     }
 }

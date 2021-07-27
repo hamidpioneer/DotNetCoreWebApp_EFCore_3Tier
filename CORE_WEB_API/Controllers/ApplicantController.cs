@@ -20,6 +20,7 @@ namespace CORE_WEB_API.Controllers
             _actionService = actionService;
         }
 
+        [HttpPost]
         public IActionResult CreateApplicant(ApplicantCreateDto obj)
         {
             try

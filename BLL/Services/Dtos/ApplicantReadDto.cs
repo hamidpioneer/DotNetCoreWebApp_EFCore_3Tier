@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace BLL.Services.Dtos
 {
-    public class ApplicantReadDto : ElementarySchoolBaseCreateDto
+    public class ApplicantReadDto
     {
+        public string Name { get; set; }
         public string SurName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string ContactNumber { get; set; }

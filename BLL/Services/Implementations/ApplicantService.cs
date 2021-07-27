@@ -29,6 +29,7 @@ namespace BLL.Services.Implementations
             {
                 Applicant applicant = _mapper.Map<Applicant>(applicantCreateDto);
 
+                applicant.DateOfBirth = applicant.DateOfBirth.Date;
                 Applicant savedData = _applicantGenericRepo.Insert(applicant);
 
                 ApplicantReadDto mappedData = _mapper.Map<ApplicantReadDto>(savedData);
