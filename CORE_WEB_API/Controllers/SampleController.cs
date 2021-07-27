@@ -28,7 +28,6 @@ namespace CORE_WEB_API.Controllers
             try
             {
                 var data = _sample_Service.GetAllSamples();
-
                 return Ok(data);
             }
             catch (Exception ex)

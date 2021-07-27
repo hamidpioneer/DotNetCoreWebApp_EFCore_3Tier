@@ -37,11 +37,13 @@ namespace CORE_WEB_API
             #region Repository DI
             services.AddScoped<ISampleRepo, SampleRepo>();
             services.AddScoped<IGenericRepo<Sample>, GenericRepo<Sample>>();
+            services.AddScoped<IGenericRepo<Applicant>, GenericRepo<Applicant>>();
             #endregion
 
             #region BLL Services DI
             services.AddScoped<Sample_Service, Sample_Service>();
             services.AddScoped<ICrudService, CrudService>();
+            services.AddScoped<IApplicantService, ApplicantService>();
             #endregion
 
             services.AddControllers();

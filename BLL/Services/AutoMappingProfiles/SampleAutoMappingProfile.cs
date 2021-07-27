@@ -16,6 +16,10 @@ namespace BLL.Services.AutoMappingProfiles
             // Source -> Target
             CreateMap<Sample, SampleReadDto>();
             CreateMap<SampleReadDto, Sample>();
+            
+            CreateMap<Applicant, ApplicantCreateDto>();
+            CreateMap<ApplicantCreateDto, Applicant>();
+
         }
     }
 }
