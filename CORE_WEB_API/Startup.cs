@@ -38,15 +38,19 @@ namespace CORE_WEB_API
             services.AddScoped<ISampleRepo, SampleRepo>();
             services.AddScoped<IGenericRepo<Sample>, GenericRepo<Sample>>();
             services.AddScoped<IGenericRepo<Applicant>, GenericRepo<Applicant>>();
+            services.AddScoped<IApplicationRepo, ApplicationRepo>();
             #endregion
 
             #region BLL Services DI
             services.AddScoped<Sample_Service, Sample_Service>();
             services.AddScoped<ICrudService, CrudService>();
             services.AddScoped<IApplicantService, ApplicantService>();
+            services.AddScoped<IApplicationService, ApplicationService>();
+
             #endregion
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddNewtonsoftJson(action => action.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CORE_WEB_API", Version = "v1" });

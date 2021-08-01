@@ -18,13 +18,15 @@ namespace BLL.Services.AutoMappingProfiles
             CreateMap<SampleReadDto, Sample>();
             
             CreateMap<Applicant, ApplicantCreateDto>();
-            CreateMap<ApplicantCreateDto, Applicant>()
-                .ForMember(target => target.DateOfBirth, source => source.MapFrom(z => z.DateOfBirth.ToString("dd/MM/yyyy")));
+            CreateMap<ApplicantCreateDto, Applicant>();
 
             CreateMap<Applicant, ApplicantReadDto>()
                 .ForMember(target => target.DateOfBirthString, source => source.MapFrom(z => z.DateOfBirth.ToString("dd/MM/yyyy")));
 
             CreateMap<ApplicantReadDto, Applicant>();
+
+            CreateMap<ApplicationCreateDto, Application>();
+
 
         }
     }

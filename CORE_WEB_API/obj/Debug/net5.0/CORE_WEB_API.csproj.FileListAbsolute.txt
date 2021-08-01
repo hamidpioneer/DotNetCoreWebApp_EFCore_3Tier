@@ -136,3 +136,6 @@ D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\ref\CORE_WEB_API.dll
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.pdb
 D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\obj\Debug\net5.0\CORE_WEB_API.genruntimeconfig.cache
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Study Materials\PRACTICES\DotNetCoreWebApp\Hamid DotNetCore WEB API\CORE_WEB_API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

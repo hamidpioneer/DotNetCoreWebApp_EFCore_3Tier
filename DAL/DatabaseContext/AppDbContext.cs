@@ -20,7 +20,7 @@ namespace DAL.DatabaseContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            DateTime _modifiedDate = new(1900, 1, 1);
+            DateTime _modifiedDate = new(10, 10, 10);
 
             #region Sample
             modelBuilder.Entity<Sample>().ToTable("tblSamples");
@@ -99,7 +99,7 @@ namespace DAL.DatabaseContext
             //COLUMN SETTINGS
             modelBuilder.Entity<Application>().Property(app => app.Applicant_Id).IsRequired(true).HasColumnName("applicant_id");
             modelBuilder.Entity<Application>().Property(app => app.Grade_Id).IsRequired(true).HasColumnName("grade_id");
-            modelBuilder.Entity<Application>().Property(app => app.ApplicationStatus_Id).IsRequired(true).HasColumnName("application_status_id");
+            modelBuilder.Entity<Application>().Property(app => app.ApplicationStatus_Id).HasDefaultValue(1).IsRequired(true).HasColumnName("application_status_id");
             modelBuilder.Entity<Application>().Property(app => app.CreationDate).IsRequired(true).HasDefaultValue(DateTime.UtcNow).HasColumnName("creation_date");
             modelBuilder.Entity<Application>().Property(app => app.ModifiedDate).IsRequired(true).HasDefaultValue(_modifiedDate).HasColumnName("modified_date");
             modelBuilder.Entity<Application>().Property(app => app.SchoolYear).IsRequired(true).HasColumnName("school_year");

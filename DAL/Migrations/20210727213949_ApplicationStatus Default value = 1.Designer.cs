@@ -4,14 +4,16 @@ using DAL.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210727213949_ApplicationStatus Default value = 1")]
+    partial class ApplicationStatusDefaultvalue1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,7 +45,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 490, DateTimeKind.Utc).AddTicks(3535))
+                        .HasDefaultValue(new DateTime(2021, 7, 27, 21, 39, 49, 480, DateTimeKind.Utc).AddTicks(3649))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("DateOfBirth")
@@ -96,7 +98,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 512, DateTimeKind.Utc).AddTicks(5870))
+                        .HasDefaultValue(new DateTime(2021, 7, 27, 21, 39, 49, 501, DateTimeKind.Utc).AddTicks(9896))
                         .HasColumnName("creation_date");
 
                     b.Property<int>("Grade_Id")
@@ -108,6 +110,9 @@ namespace DAL.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SchoolYear")
                         .HasColumnType("int")
@@ -137,7 +142,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 510, DateTimeKind.Utc).AddTicks(7305))
+                        .HasDefaultValue(new DateTime(2021, 7, 27, 21, 39, 49, 500, DateTimeKind.Utc).AddTicks(3609))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("ModifiedDate")
@@ -177,7 +182,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 511, DateTimeKind.Utc).AddTicks(8251))
+                        .HasDefaultValue(new DateTime(2021, 7, 27, 21, 39, 49, 501, DateTimeKind.Utc).AddTicks(2882))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("ModifiedDate")
