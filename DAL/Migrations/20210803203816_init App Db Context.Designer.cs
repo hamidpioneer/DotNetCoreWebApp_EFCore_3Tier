@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210727155742_ElementarySchoolDbInitializedWith4Entities")]
-    partial class ElementarySchoolDbInitializedWith4Entities
+    [Migration("20210803203816_init App Db Context")]
+    partial class initAppDbContext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,7 +45,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 27, 15, 57, 42, 112, DateTimeKind.Utc).AddTicks(4086))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 369, DateTimeKind.Utc).AddTicks(1974))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("DateOfBirth")
@@ -55,7 +55,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Name")
@@ -90,13 +90,15 @@ namespace DAL.Migrations
                         .HasColumnName("applicant_id");
 
                     b.Property<int>("ApplicationStatus_Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
+                        .HasDefaultValue(1)
                         .HasColumnName("application_status_id");
 
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 27, 15, 57, 42, 135, DateTimeKind.Utc).AddTicks(1019))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 390, DateTimeKind.Utc).AddTicks(8838))
                         .HasColumnName("creation_date");
 
                     b.Property<int>("Grade_Id")
@@ -106,11 +108,8 @@ namespace DAL.Migrations
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SchoolYear")
                         .HasColumnType("int")
@@ -140,13 +139,13 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 27, 15, 57, 42, 132, DateTimeKind.Utc).AddTicks(9715))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 389, DateTimeKind.Utc).AddTicks(3499))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Name")
@@ -180,13 +179,13 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 27, 15, 57, 42, 134, DateTimeKind.Utc).AddTicks(5036))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 390, DateTimeKind.Utc).AddTicks(2183))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Name")

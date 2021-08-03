@@ -43,7 +43,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 490, DateTimeKind.Utc).AddTicks(3535))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 369, DateTimeKind.Utc).AddTicks(1974))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("DateOfBirth")
@@ -53,7 +53,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Name")
@@ -96,7 +96,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 512, DateTimeKind.Utc).AddTicks(5870))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 390, DateTimeKind.Utc).AddTicks(8838))
                         .HasColumnName("creation_date");
 
                     b.Property<int>("Grade_Id")
@@ -106,7 +106,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<int>("SchoolYear")
@@ -137,13 +137,13 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 510, DateTimeKind.Utc).AddTicks(7305))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 389, DateTimeKind.Utc).AddTicks(3499))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Name")
@@ -177,13 +177,13 @@ namespace DAL.Migrations
                     b.Property<DateTime>("CreationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 7, 28, 12, 4, 17, 511, DateTimeKind.Utc).AddTicks(8251))
+                        .HasDefaultValue(new DateTime(2021, 8, 3, 20, 38, 16, 390, DateTimeKind.Utc).AddTicks(2183))
                         .HasColumnName("creation_date");
 
                     b.Property<DateTime>("ModifiedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(1900, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified))
+                        .HasDefaultValue(new DateTime(10, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified))
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Name")

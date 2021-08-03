@@ -1,6 +1,7 @@
 ﻿using BLL.Services.Dtos;
 using BLL.Services.Interfaces;
 using DAL.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -21,6 +22,9 @@ namespace CORE_WEB_API.Controllers
             _crudService = crudService;
         }
 
+
+
+        [Authorize]
         [HttpGet]
         public IActionResult GetAllSamples()
         {
