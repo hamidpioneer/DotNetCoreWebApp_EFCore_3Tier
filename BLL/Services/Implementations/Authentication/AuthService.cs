@@ -70,9 +70,9 @@ namespace BLL.Services.Implementations.Authentication
                 Email = model.Email
             };
 
-            var resultFromDb = await _authRepo.LoginAsync(authUser, model.Password);
+            var authenticUser = await _authRepo.LoginAsync(authUser, model.Password);
 
-            if (resultFromDb.Success)
+            if (authenticUser.Success)
             {
                 var token = GenerateJwtToken(authUser);
 
@@ -81,14 +81,12 @@ namespace BLL.Services.Implementations.Authentication
             }
             else
             {
-                result.Errors = resultFromDb.Errors;
+                result.Errors = authenticUser.Errors;
             }
 
             return result;
+
         }
-
-
-
 
 
         private string GenerateJwtToken(AuthUser user)
