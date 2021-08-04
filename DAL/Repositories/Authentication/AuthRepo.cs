@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -72,11 +73,7 @@ namespace DAL.Repositories.Authentication
                 var isAuthenticateUser = await _userManager.CheckPasswordAsync(existingUser, password);
                 if (isAuthenticateUser)
                 {
-                    result.Data = new AuthUser
-                    {
-                        UserName = existingUser.UserName,
-                        Email = existingUser.Email
-                    };
+                    result.Data = existingUser;
                     result.Success = true;
                 } else
                 {
@@ -92,5 +89,21 @@ namespace DAL.Repositories.Authentication
 
         }
 
+
+        public async Task<IList<string>> GetUserRolesAsync(AuthUser user)
+        {
+            IList<string> userRoles = null;
+
+            try
+            {
+                userRoles = await _userManager.GetRolesAsync(user);
+
+                return userRoles;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

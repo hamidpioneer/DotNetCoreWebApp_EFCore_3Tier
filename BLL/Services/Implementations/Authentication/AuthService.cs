@@ -35,20 +35,15 @@ namespace BLL.Services.Implementations.Authentication
             AuthUser authUser = new AuthUser
             {
                 UserName = model.UserName,
-                Email = model.Email
+                Email = model.Email,
+                SecurityStamp = Guid.NewGuid().ToString()
             };
 
             var resultFromDb = await _authRepo.RegisterAsync(authUser, model.Password);
 
             if (resultFromDb.Success)
             {
-                var user = new AuthUserRegistrationReadDto
-                {
-                    UserName = model.UserName,
-                    Email = model.Email
-                };
-
-                var token = GenerateJwtToken(authUser);
+                var token = await GenerateJwtToken(resultFromDb.Data);
 
                 result.Token = token;
                 result.Success = true;
@@ -74,7 +69,7 @@ namespace BLL.Services.Implementations.Authentication
 
             if (authenticUser.Success)
             {
-                var token = GenerateJwtToken(authUser);
+                var token = await GenerateJwtToken(authUser);
 
                 result.Token = token;
                 result.Success = true;
@@ -89,22 +84,34 @@ namespace BLL.Services.Implementations.Authentication
         }
 
 
-        private string GenerateJwtToken(AuthUser user)
+        private async Task<string> GenerateJwtToken(AuthUser user)
         {
             var key = Encoding.ASCII.GetBytes(_jwtConfig.Secret);
 
             var jwtTokenHandler = new JwtSecurityTokenHandler();
 
+            // process auth claims
+            var userRoles = await GetUserClaimsAsync(user);
+            List<Claim> authClaims = new()
+            {
+                new Claim("Id", user.Id),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };            
+            foreach(var userRole in userRoles)
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, userRole));
+            }
+            //
+
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-                    new Claim("Id", user.Id),
-                    new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                    new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                }),
-                Expires = DateTime.UtcNow.AddMinutes(5),
+                Audience = _jwtConfig.ValidAudience,
+                Issuer = _jwtConfig.ValidIssuer,
+                Subject = new ClaimsIdentity(authClaims),
+                Expires = DateTime.UtcNow.AddMinutes(60),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
@@ -114,6 +121,12 @@ namespace BLL.Services.Implementations.Authentication
             return jwtToken;
         }
 
+        private async Task<IList<string>> GetUserClaimsAsync(AuthUser user)
+        {
+            var userClaims = await _authRepo.GetUserRolesAsync(user);
+
+            return userClaims;
+        }
 
 
     }

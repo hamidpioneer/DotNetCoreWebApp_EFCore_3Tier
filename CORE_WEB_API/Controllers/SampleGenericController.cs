@@ -1,6 +1,7 @@
 ﻿using BLL.Services.Dtos;
 using BLL.Services.Interfaces;
 using DAL.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,7 +26,9 @@ namespace CORE_WEB_API.Controllers
 
 
         [Authorize]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet]
+        [Route("[Action]")]
         public IActionResult GetAllSamples()
         {
             try

@@ -11,5 +11,7 @@ namespace DAL.Repositories.Authentication
     {
         Task<AuthDbResponse<AuthUser>> RegisterAsync(AuthUser newUserToCreate, string password);
         Task<AuthDbResponse<AuthUser>> LoginAsync(AuthUser userForLogin, string password);
+
+        Task<IList<string>> GetUserRolesAsync(AuthUser user);
     }
 }
