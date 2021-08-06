@@ -12,6 +12,8 @@ namespace BLL.Services.Interfaces.Authentication
     public interface IAuthService
     {
         Task<AuthResultSet> RegistrationAsync(AuthUserRegistrationCreateDto model);
+        Task<AuthResultSet> RegistrationAdminAsync(AuthUserRegistrationCreateDto model);
+        Task<AuthResultSet> RegistrationManagerAsync(AuthUserRegistrationCreateDto model);
         Task<AuthResultSet> LoginAsync(AuthUserLoginCreateDto model);
     }
 }

@@ -40,6 +40,45 @@ namespace CORE_WEB_API.Controllers.Authentication
             }
         }
 
+        [Route("RegisterAdmin")]
+        [HttpPost]
+        public async Task<IActionResult> RegisterAdminAsync([FromBody] AuthUserRegistrationCreateDto userToCreate)
+        {
+            try
+            {
+                AuthResultSet result = await _authService.RegistrationAdminAsync(userToCreate);
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                return BadRequest("Try again later. Bad Request");
+            }
+            catch (Exception exception)
+            {
+                throw new Exception("ERROR: ", exception);
+            }
+        }
+
+
+        [Route("RegisterManager")]
+        [HttpPost]
+        public async Task<IActionResult> RegisterManagerAsync([FromBody] AuthUserRegistrationCreateDto userToCreate)
+        {
+            try
+            {
+                AuthResultSet result = await _authService.RegistrationManagerAsync(userToCreate);
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                return BadRequest("Try again later. Bad Request");
+            }
+            catch (Exception exception)
+            {
+                throw new Exception("ERROR: ", exception);
+            }
+        }
+
 
         [Route("Login")]
         [HttpPost]

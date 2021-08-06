@@ -10,6 +10,8 @@ namespace DAL.Repositories.Authentication
     public interface IAuthRepo
     {
         Task<AuthDbResponse<AuthUser>> RegisterAsync(AuthUser newUserToCreate, string password);
+        Task<AuthDbResponse<AuthUser>> RegisterAdminAsync(AuthUser newUserToCreate, string password);
+        Task<AuthDbResponse<AuthUser>> RegisterManagerAsync(AuthUser newUserToCreate, string password);
         Task<AuthDbResponse<AuthUser>> LoginAsync(AuthUser userForLogin, string password);
 
         Task<IList<string>> GetUserRolesAsync(AuthUser user);

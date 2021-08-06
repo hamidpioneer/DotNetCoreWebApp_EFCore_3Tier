@@ -55,6 +55,63 @@ namespace BLL.Services.Implementations.Authentication
             return result;
         }
 
+        public async Task<AuthResultSet> RegistrationAdminAsync(AuthUserRegistrationCreateDto model)
+        {
+            AuthResultSet result = new();
+
+            AuthUser authUser = new AuthUser
+            {
+                UserName = model.UserName,
+                Email = model.Email,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+
+            var resultFromDb = await _authRepo.RegisterAdminAsync(authUser, model.Password);
+
+            if (resultFromDb.Success)
+            {
+                var token = await GenerateJwtToken(resultFromDb.Data);
+
+                result.Token = token;
+                result.Success = true;
+            }
+            else
+            {
+                result.Errors = resultFromDb.Errors;
+            }
+
+            return result;
+        }
+
+
+        public async Task<AuthResultSet> RegistrationManagerAsync(AuthUserRegistrationCreateDto model)
+        {
+            AuthResultSet result = new();
+
+            AuthUser authUser = new AuthUser
+            {
+                UserName = model.UserName,
+                Email = model.Email,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+
+            var resultFromDb = await _authRepo.RegisterManagerAsync(authUser, model.Password);
+
+            if (resultFromDb.Success)
+            {
+                var token = await GenerateJwtToken(resultFromDb.Data);
+
+                result.Token = token;
+                result.Success = true;
+            }
+            else
+            {
+                result.Errors = resultFromDb.Errors;
+            }
+
+            return result;
+        }
+
 
         public async Task<AuthResultSet> LoginAsync(AuthUserLoginCreateDto model)
         {
@@ -69,7 +126,7 @@ namespace BLL.Services.Implementations.Authentication
 
             if (authenticUser.Success)
             {
-                var token = await GenerateJwtToken(authUser);
+                var token = await GenerateJwtToken(authenticUser.Data);
 
                 result.Token = token;
                 result.Success = true;
@@ -111,7 +168,7 @@ namespace BLL.Services.Implementations.Authentication
                 Audience = _jwtConfig.ValidAudience,
                 Issuer = _jwtConfig.ValidIssuer,
                 Subject = new ClaimsIdentity(authClaims),
-                Expires = DateTime.UtcNow.AddMinutes(60),
+                Expires = DateTime.UtcNow.AddHours(12),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 

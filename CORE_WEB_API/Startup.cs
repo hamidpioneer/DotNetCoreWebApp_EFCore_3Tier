@@ -91,8 +91,10 @@ namespace CORE_WEB_API
                         ValidIssuer = jwtConfigObj.ValidIssuer,
                         ValidateAudience = true,
                         ValidAudience = jwtConfigObj.ValidAudience,
-                        ValidateLifetime = true,                        
-                        RequireExpirationTime = false
+                        ValidateLifetime = true,    
+                        
+                        RequireExpirationTime = true,
+                        //ClockSkew = TimeSpan.Zero
                     };
 
                 });

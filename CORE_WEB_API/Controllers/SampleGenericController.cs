@@ -1,6 +1,7 @@
 ﻿using BLL.Services.Dtos;
 using BLL.Services.Interfaces;
 using DAL.Models;
+using DAL.Models.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -28,8 +29,62 @@ namespace CORE_WEB_API.Controllers
         [Authorize]
         //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet]
-        [Route("[Action]")]
+        [Route("GetAllSamples")]
         public IActionResult GetAllSamples()
+        {
+            try
+            {
+                var result = _crudService.GetAllData();
+                return Ok(result);
+            }
+            catch (Exception exception)
+            {
+
+                throw new Exception("ERROR: CoreAPI - SampleGenericController - GetAllSamples() - Failed", exception);
+            }
+        }
+
+        [Authorize(Roles = AuthUserRoles.Manager)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet]
+        [Route("TestManager")]
+        public IActionResult TestManager()
+        {
+            try
+            {
+                var result = _crudService.GetAllData();
+                return Ok(result);
+            }
+            catch (Exception exception)
+            {
+
+                throw new Exception("ERROR: CoreAPI - SampleGenericController - GetAllSamples() - Failed", exception);
+            }
+        }
+
+        [Authorize(Roles = AuthUserRoles.User)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet]
+        [Route("TestUser")]
+        public IActionResult TestUser()
+        {
+            try
+            {
+                var result = _crudService.GetAllData();
+                return Ok(result);
+            }
+            catch (Exception exception)
+            {
+
+                throw new Exception("ERROR: CoreAPI - SampleGenericController - GetAllSamples() - Failed", exception);
+            }
+        }
+
+        [Authorize(Roles = AuthUserRoles.Admin)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet]
+        [Route("TestAdmin")]
+        public IActionResult TestAdmin()
         {
             try
             {
